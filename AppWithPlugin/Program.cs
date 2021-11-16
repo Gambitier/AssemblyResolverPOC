@@ -13,6 +13,7 @@ namespace AppWithPlugin
         {
             try
             {
+                //args = new string[] { "hello" };
                 if (args.Length == 1 && args[0] == "/d")
                 {
                     Console.WriteLine("Waiting for any key...");
@@ -23,6 +24,7 @@ namespace AppWithPlugin
                 string[] pluginPaths = new string[]
                 {
                     // Paths to plugins to load.
+                    Path.Join("HelloPlugin", "bin", "Debug", "net5.0", "HelloPlugin.dll")
                 };
 
                 IEnumerable<ICommand> commands = pluginPaths.SelectMany(pluginPath =>
