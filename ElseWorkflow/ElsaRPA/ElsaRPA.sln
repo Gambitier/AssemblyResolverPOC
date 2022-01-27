@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElsaRPA", "ElsaRPA\ElsaRPA.csproj", "{F6896E5F-A05B-416D-B071-F52C99035823}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6896E5F-A05B-416D-B071-F52C99035823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6896E5F-A05B-416D-B071-F52C99035823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6896E5F-A05B-416D-B071-F52C99035823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6896E5F-A05B-416D-B071-F52C99035823}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5ED0871-F54C-4BA6-A7E0-C554FA6D33FE}
+	EndGlobalSection
+EndGlobal
